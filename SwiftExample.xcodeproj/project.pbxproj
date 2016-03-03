@@ -11,7 +11,7 @@
 		138BCA6D1989946E0009467C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138BCA6C1989946E0009467C /* ViewController.swift */; };
 		138BCA701989946E0009467C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138BCA6E1989946E0009467C /* Main.storyboard */; };
 		138BCA721989946E0009467C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138BCA711989946E0009467C /* Images.xcassets */; };
-		13F10FEB198997000066DA2E /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F10FEA198997000066DA2E /* iCarousel.m */; };
+		271C7F551C8843430043D77F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7F541C8843430043D77F /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +21,9 @@
 		138BCA6C1989946E0009467C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		138BCA6F1989946E0009467C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		138BCA711989946E0009467C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		13F10FE9198997000066DA2E /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		13F10FEA198997000066DA2E /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		13F10FEC198997560066DA2E /* SwiftExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		271C7F531C8843430043D77F /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = SOURCE_ROOT; };
+		271C7F541C8843430043D77F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 		13F10FE8198997000066DA2E /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				13F10FE9198997000066DA2E /* iCarousel.h */,
-				13F10FEA198997000066DA2E /* iCarousel.m */,
+				271C7F531C8843430043D77F /* iCarousel.h */,
+				271C7F541C8843430043D77F /* iCarousel.m */,
 			);
 			name = iCarousel;
 			path = ../../iCarousel;
@@ -157,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F10FEB198997000066DA2E /* iCarousel.m in Sources */,
+				271C7F551C8843430043D77F /* iCarousel.m in Sources */,
 				138BCA6D1989946E0009467C /* ViewController.swift in Sources */,
 				138BCA6B1989946E0009467C /* AppDelegate.swift in Sources */,
 			);
